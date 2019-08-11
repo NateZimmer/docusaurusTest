@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Test Site', // Title for your website.
   tagline: 'Making docs',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://natezimmer.github.io/', // Your website URL
+  baseUrl: '/docusaurusTest/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
