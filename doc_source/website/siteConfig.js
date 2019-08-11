@@ -80,7 +80,7 @@ const siteConfig = {
     theme: 'default',
   },
 
-  editUrl:'https://github.com/NateZimmer/docusaurusTest/tree/master/doc_source/docs',
+  editUrl:'https://github.com/NateZimmer/docusaurusTest/tree/master/doc_source/docs/',
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
