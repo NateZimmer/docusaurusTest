@@ -82,13 +82,13 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'ir-black',
   },
 
   editUrl:'https://github.com/NateZimmer/docusaurusTest/tree/master/doc_source/docs/',
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML', '/js/mathjax-config.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
