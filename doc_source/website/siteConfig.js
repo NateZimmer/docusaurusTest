@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {
-      href: 'https://natezimmer.github.io/docusaurusTest/',
+      href: 'https://github.com/NateZimmer/docusaurusTest',
       label: 'GitHub',
       position: 'right',
     }
