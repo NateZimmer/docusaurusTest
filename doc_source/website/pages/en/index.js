@@ -64,9 +64,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Get Started</Button>
+            <Button href={docUrl('doc1.html')}>View Docs</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -156,6 +155,10 @@ class Index extends React.Component {
             content: 'The content of my second feature',
             title: 'Feature Two',
           },
+          {
+            content: 'The content of my third feature',
+            title: 'Feature Three',
+          }
         ]}
       </Block>
     );
@@ -194,11 +197,8 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
           <LearnHow />
           <TryOut />
-          <Description />
-          <Showcase />
         </div>
       </div>
     );
