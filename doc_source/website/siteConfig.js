@@ -38,7 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'}//,
+    {doc: 'doc1', label: 'Docs'},
+    {
+      href: 'https://natezimmer.github.io/docusaurusTest/',
+      label: 'GitHub',
+      position: 'right',
+    }
     //{doc: 'doc4', label: 'API'},
     //{page: 'help', label: 'Help'},
     //{blog: true, label: 'Blog'},
@@ -54,7 +59,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#0c6285',
+    primaryColor: '#20232a',
     secondaryColor: '#1580ad',
   },
 
