@@ -87,7 +87,7 @@ Using this model in conjunction with a controller, one can observe the following
 
 <p align='center'>
 
-<img src='testThermal.svg'>
+<img src='../img/testThermal.svg'>
 
 </p>
 
